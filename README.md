@@ -1,7 +1,6 @@
 # Electronics E-Commerce Web Application (Team Academic Project)
 
 > Migrated copy of our Web Programming final team project.  The original project can be accessed via https://github.com/quochuy171105/DoAnCuoiKiLapTrinhWeb
-> This repository is maintained for portfolio/learning purposes.
 
 ## 1. Project Overview
 An electronics e-commerce website (similar to ShopDunk) designed as a full MVC-based system.  
@@ -10,8 +9,6 @@ The project focuses on **end-to-end business process analysis, functional requir
 **Business Scope**
 - User side: account management, product browsing/search/filter, cart & checkout, promotions, feedback, order history.
 - Admin side: product/order/promotion management, revenue analytics.
-
----
 
 ## 2. My Role & Contributions (Business Analysis / System Design)
 I worked as a **Business Analyst / System Designer** in this project.
@@ -47,8 +44,10 @@ I worked as a **Business Analyst / System Designer** in this project.
 ### 3.2 Business Functional Diagram
 #### Customer Business Functional Diagram  
 <img width="528" height="409" alt="image" src="https://github.com/user-attachments/assets/23ee586b-92f4-470f-9616-f3cf7617f3eb" />
+
 #### Member Customer Business Functional Diagram  
 <img width="940" height="406" alt="image" src="https://github.com/user-attachments/assets/bd20afdc-397b-4f06-9a85-66cb4f5e07f7" />
+
 #### Admin Business Functional Diagram  
 <img width="940" height="404" alt="image" src="https://github.com/user-attachments/assets/5961b1b4-90d5-4e82-a0d3-b941175addab" />
 
@@ -58,7 +57,6 @@ I worked as a **Business Analyst / System Designer** in this project.
 ### 3.4 Class Diagram
 <img width="940" height="885" alt="image" src="https://github.com/user-attachments/assets/e0de4b7d-99b9-489c-95ce-8e1d9331ee36" />
 
----
 
 ## 4. Functional Modules
 
@@ -76,7 +74,6 @@ I worked as a **Business Analyst / System Designer** in this project.
 - Promotion management (CRUD)
 - Revenue dashboard (charts & tables)
 
----
 
 ## 5. Project Structure (High-level)
 ```text
@@ -91,3 +88,33 @@ DoAnCuoiKiLapTrinhWeb/
 ├── index.php       # User entry point
 ├── admin.php       # Admin entry point
 └── README.md
+
+## Results
+This project delivered an end-to-end **business analysis and system design** for an online electronics retail website. Starting from stakeholder needs, we modeled core **AS-IS / TO-BE processes** and translated them into functional requirements and a complete system blueprint. Key outputs include:
+
+- Clearly defined business scope for both **Customer (O2C)** and **Admin operations**.
+- Fully documented **functional requirements** covering account management, product browsing, cart/checkout, promotions, feedback, and order tracking.
+- Designed **system architecture and database model (ERD)** aligned with master/transaction data flows.
+- Produced supporting diagrams (use case, activity, workflow) to guide implementation and testing.
+- A working prototype implementation based on the above specifications, demonstrating the feasibility of the designed processes.
+
+Overall, the project demonstrates a structured BA approach from business problem understanding to functional specification and solution delivery for an e-commerce system.
+
+## Limitations and Future Work
+While the core business flows and system design are complete, several limitations remain:
+
+- **Authentication is not fully integrated**: Google OAuth login has not been implemented yet.
+- **Limited API layer**: key features rely on basic AJAX services; a more standardized RESTful API is needed for scalability and future integrations.
+- **Dataset and business validation are limited**: product/customer data are mostly sample data, so real-world performance and edge cases are not fully covered.
+- **Not deployed to production**: the system has not gone through full cutover/go-live, hypercare, or real user acceptance testing.
+- **Feature scope is still minimal**: advanced functions such as real-time inventory sync, payment gateway integration, and recommendation/personalization are not included.
+
+**Future improvements**
+- Implement Google OAuth and stronger role-based security.
+- Refactor services into a complete REST API and improve modularity.
+- Expand the dataset and run full SIT/UAT with realistic scenarios.
+- Deploy to a cloud environment and execute go-live/hypercare evaluation.
+- Extend features (payment gateway, inventory management, analytics, recommendation).
+
+
+<img width="940" height="425" alt="image" src="https://github.com/user-attachments/assets/a297ed70-1eca-47dd-b24f-3a72112e25bb" />
