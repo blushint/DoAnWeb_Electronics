@@ -88,7 +88,7 @@ DoAnCuoiKiLapTrinhWeb/
 ├── index.php       # User entry point
 ├── admin.php       # Admin entry point
 └── README.md
-
+```
 ## Results
 This project delivered an end-to-end **business analysis and system design** for an online electronics retail website. Starting from stakeholder needs, we modeled core **AS-IS / TO-BE processes** and translated them into functional requirements and a complete system blueprint. Key outputs include:
 
@@ -97,8 +97,9 @@ This project delivered an end-to-end **business analysis and system design** for
 - Designed **system architecture and database model (ERD)** aligned with master/transaction data flows.
 - Produced supporting diagrams (use case, activity, workflow) to guide implementation and testing.
 - A working prototype implementation based on the above specifications, demonstrating the feasibility of the designed processes.
+  
+<img width="940" height="425" alt="image" src="https://github.com/user-attachments/assets/a297ed70-1eca-47dd-b24f-3a72112e25bb" />
 
-Overall, the project demonstrates a structured BA approach from business problem understanding to functional specification and solution delivery for an e-commerce system.
 
 ## Limitations and Future Work
 While the core business flows and system design are complete, several limitations remain:
@@ -110,11 +111,21 @@ While the core business flows and system design are complete, several limitation
 - **Feature scope is still minimal**: advanced functions such as real-time inventory sync, payment gateway integration, and recommendation/personalization are not included.
 
 **Future improvements**
-- Implement Google OAuth and stronger role-based security.
-- Refactor services into a complete REST API and improve modularity.
-- Expand the dataset and run full SIT/UAT with realistic scenarios.
-- Deploy to a cloud environment and execute go-live/hypercare evaluation.
-- Extend features (payment gateway, inventory management, analytics, recommendation).
+- Implement Google OAuth and stronger role-based security.  
+- Refactor services into a complete REST API.  
+- Expand datasets and execute full SIT/UAT with realistic scenarios.  
+- Deploy to cloud and evaluate go-live/hypercare performance.  
+- Extend features (payment gateway, inventory, analytics, recommendations).  
+
+## Acknowledgements
+We would like to express our sincere gratitude to **Mr. Dang Ngoc Hoang Thanh** for his dedicated guidance and continuous support throughout this project. His insightful feedback, patience, and encouragement helped us refine our approach and strengthen our understanding of real-world system analysis and design.
+
+## License
+This repository is for educational and non-commercial purposes only.  
+The authors do not publish, distribute, or license any dataset.  
+Any crawling or external data usage must comply with the source website’s terms and applicable laws.
+
+## Authors
+Developed by **Group 06**.
 
 
-<img width="940" height="425" alt="image" src="https://github.com/user-attachments/assets/a297ed70-1eca-47dd-b24f-3a72112e25bb" />
