@@ -1,33 +1,93 @@
-# Dự án cuối kỳ Lập trình Web
+# Electronics E-Commerce Web Application (Team Academic Project)
 
-## Giới thiệu
-Website thương mại điện tử bán đồ công nghệ, tương tự ShopDunk, sử dụng PHP, MySQL, Bootstrap, jQuery.
+> Migrated copy of our Web Programming final team project.  
+> This repository is maintained for portfolio/learning purposes.
 
-## Cài đặt
-1. **Cơ sở dữ liệu**:
-   - Tạo cơ sở dữ liệu `doancuoikylaptrinhweb`.
-   - Chạy file `sql/database.sql` để tạo bảng và dữ liệu mẫu.
-   - Cấu hình kết nối trong `config/database.php`.
+## 1. Project Overview
+An electronics e-commerce website (similar to ShopDunk) designed as a full MVC-based system.  
+The project focuses on **end-to-end business process analysis, functional requirements, and system design**, then implemented by the development team using PHP + MySQL.
 
-2. **Cấu hình web**:
-   - Sao chép dự án vào thư mục web server (ví dụ: `/var/www/html/DoAnCuoiKyLapTrinhWeb`).
-   - Cập nhật `BASE_URL` trong `config/config.php`.
-   - Đảm bảo Apache bật `mod_rewrite` cho `.htaccess`.
+**Business Scope**
+- User side: account management, product browsing/search/filter, cart & checkout, promotions, feedback, order history.
+- Admin side: product/order/promotion management, revenue analytics.
 
-3. **Google OAuth**:
-   - Đăng ký tại Google Cloud Console.
-   - Cập nhật `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET` trong `config/google_oauth.php`.
+---
 
-## Cấu trúc thư mục
-- `assets/`: CSS, JS, hình ảnh.
-- `config/`: Cấu hình hệ thống.
-- `controllers/`: Bộ điều khiển MVC.
-- `models/`: Mô hình dữ liệu.
-- `views/`: Giao diện người dùng và admin.
-- `services/`: Xử lý AJAX.
+## 2. My Role & Contributions (Business Analysis / System Design)
+I worked as a **Business Analyst / System Designer** in this project.
 
-## Thành viên
-- Huy (Thành viên 4): Quản lý admin, thông báo, cấu hình hệ thống.
+**Key contributions**
+- **Business Process Analysis**
+  - Collected and analyzed user/admin needs.
+  - Modeled **AS-IS / TO-BE workflows** for key flows:  
+    Order-to-Cash (customer ordering) and Admin order processing.
+- **Requirement Engineering**
+  - Defined and documented **functional requirements** for:
+    - Authentication & profile management
+    - Feedback & review management
+    - User promotions/discount flow
+  - Ensured requirement traceability from business goals to features.
+- **System & Data Design**
+  - Designed **ERD** and database schema (master data & transaction data).
+  - Produced **use cases, activity diagrams, and business flow diagrams** to guide implementation.
+- **Collaboration & Validation**
+  - Worked with developers to clarify logic and edge cases.
+  - Supported test planning by defining expected outputs and scenarios.
 
-## Tiến độ
-- Tuần 1: Thiết kế giao diện, cấu hình hệ thống, thiết lập cơ sở dữ liệu.
+---
+
+## 3. Workflow / Diagrams
+> Insert diagrams below. These diagrams were created to explain processes and guide implementation.
+
+### 3.1 Customer Order Workflow (O2C)
+![Customer order workflow](docs/diagrams/customer-workflow.png)  
+**TODO:** Replace with your workflow diagram.
+
+### 3.2 Admin Order Processing Workflow
+![Admin order workflow](docs/diagrams/admin-workflow.png)  
+**TODO:** Replace with your workflow diagram.
+
+### 3.3 System Diagrams
+- ERD  
+  ![ERD](docs/diagrams/erd.png)  
+  **TODO:** Replace with your ERD image.
+- Use Case Diagram  
+  ![Use case](docs/diagrams/usecase.png)  
+  **TODO:** Replace with your use case diagram.
+- Activity Diagram  
+  ![Activity](docs/diagrams/activity.png)  
+  **TODO:** Replace with your activity diagram.
+
+---
+
+## 4. Functional Modules
+
+### 4.1 User Modules
+- Account: register, login/logout, forgot password, update profile
+- Browse products: categories, search, filter, product detail
+- Cart & checkout: add/update/remove items, place orders
+- Promotions: apply discount codes
+- Feedback: submit reviews and view feedback history
+- Order tracking: view order history/status
+
+### 4.2 Admin Modules
+- Product management (CRUD)
+- Order management & status updates
+- Promotion management (CRUD)
+- Revenue dashboard (charts & tables)
+
+---
+
+## 5. Project Structure (High-level)
+```text
+DoAnCuoiKiLapTrinhWeb/
+├── assets/         # UI resources (CSS/JS/images/libs)
+├── config/         # System/database configuration
+├── controllers/    # MVC controllers
+├── models/         # MVC models (PDO queries)
+├── views/          # User + Admin pages + shared layouts
+├── services/       # AJAX endpoints (JSON)
+├── sql/            # Database schema & seed data
+├── index.php       # User entry point
+├── admin.php       # Admin entry point
+└── README.md
