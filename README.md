@@ -1,6 +1,6 @@
 # Electronics E-Commerce Web Application (Team Academic Project)
 
-> Migrated copy of our Web Programming final team project.  
+> Migrated copy of our Web Programming final team project.  The original project can be accessed via https://github.com/quochuy171105/DoAnCuoiKiLapTrinhWeb
 > This repository is maintained for portfolio/learning purposes.
 
 ## 1. Project Overview
@@ -37,26 +37,26 @@ I worked as a **Business Analyst / System Designer** in this project.
 ---
 
 ## 3. Workflow / Diagrams
-> Insert diagrams below. These diagrams were created to explain processes and guide implementation.
+### 3.1 Workflow Diagram 
+#### Customer Order Workflow (O2C)
+<img width="620" height="951" alt="image" src="https://github.com/user-attachments/assets/3436c9a0-4743-4618-b5de-7fd3a42dd4f5" />
 
-### 3.1 Customer Order Workflow (O2C)
-![Customer order workflow](docs/diagrams/customer-workflow.png)  
-**TODO:** Replace with your workflow diagram.
+#### Admin Order Processing Workflow
+<img width="499" height="804" alt="image" src="https://github.com/user-attachments/assets/6505d458-187b-4b9d-b541-16cd590d2492" />
 
-### 3.2 Admin Order Processing Workflow
-![Admin order workflow](docs/diagrams/admin-workflow.png)  
-**TODO:** Replace with your workflow diagram.
+### 3.2 Business Functional Diagram
+#### Customer Business Functional Diagram  
+<img width="528" height="409" alt="image" src="https://github.com/user-attachments/assets/23ee586b-92f4-470f-9616-f3cf7617f3eb" />
+#### Member Customer Business Functional Diagram  
+<img width="940" height="406" alt="image" src="https://github.com/user-attachments/assets/bd20afdc-397b-4f06-9a85-66cb4f5e07f7" />
+#### Admin Business Functional Diagram  
+<img width="940" height="404" alt="image" src="https://github.com/user-attachments/assets/5961b1b4-90d5-4e82-a0d3-b941175addab" />
 
-### 3.3 System Diagrams
-- ERD  
-  ![ERD](docs/diagrams/erd.png)  
-  **TODO:** Replace with your ERD image.
-- Use Case Diagram  
-  ![Use case](docs/diagrams/usecase.png)  
-  **TODO:** Replace with your use case diagram.
-- Activity Diagram  
-  ![Activity](docs/diagrams/activity.png)  
-  **TODO:** Replace with your activity diagram.
+### 3.3 Entity Relationship Diagram
+<img width="940" height="913" alt="image" src="https://github.com/user-attachments/assets/57dd4908-c2aa-4633-ad94-124c57022749" />
+
+### 3.4 Class Diagram
+<img width="940" height="885" alt="image" src="https://github.com/user-attachments/assets/e0de4b7d-99b9-489c-95ce-8e1d9331ee36" />
 
 ---
 
