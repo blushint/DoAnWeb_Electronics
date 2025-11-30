@@ -41,23 +41,39 @@ I worked as a **Business Analyst / System Designer** in this project.
 </p>
 
 #### Admin Order Processing Workflow
+<p align="center">
 <img width="499" height="804" alt="image" src="https://github.com/user-attachments/assets/6505d458-187b-4b9d-b541-16cd590d2492" />
+</p>
 
 ### 3.2 Business Functional Diagram
 #### Customer Business Functional Diagram  
+<p align="center">
 <img width="528" height="409" alt="image" src="https://github.com/user-attachments/assets/23ee586b-92f4-470f-9616-f3cf7617f3eb" />
+</p>
+
 
 #### Member Customer Business Functional Diagram  
-<img width="940" height="406" alt="image" src="https://github.com/user-attachments/assets/bd20afdc-397b-4f06-9a85-66cb4f5e07f7" />
+<p align="center">
+  <img width="940" height="406" alt="image" src="https://github.com/user-attachments/assets/bd20afdc-397b-4f06-9a85-66cb4f5e07f7" />
+</p>
+
 
 #### Admin Business Functional Diagram  
 <img width="940" height="404" alt="image" src="https://github.com/user-attachments/assets/5961b1b4-90d5-4e82-a0d3-b941175addab" />
+</p>
+
 
 ### 3.3 Entity Relationship Diagram
-<img width="940" height="913" alt="image" src="https://github.com/user-attachments/assets/57dd4908-c2aa-4633-ad94-124c57022749" />
+<p align="center">
+  <img width="940" height="913" alt="image" src="https://github.com/user-attachments/assets/57dd4908-c2aa-4633-ad94-124c57022749" />
+</p>
+
 
 ### 3.4 Class Diagram
-<img width="940" height="885" alt="image" src="https://github.com/user-attachments/assets/e0de4b7d-99b9-489c-95ce-8e1d9331ee36" />
+<p align="center">
+  <img width="940" height="885" alt="image" src="https://github.com/user-attachments/assets/e0de4b7d-99b9-489c-95ce-8e1d9331ee36" />
+</p>
+
 
 
 ## 4. Functional Modules
@@ -100,8 +116,9 @@ This project delivered an end-to-end **business analysis and system design** for
 - Produced supporting diagrams (use case, activity, workflow) to guide implementation and testing.
 - A working prototype implementation based on the above specifications, demonstrating the feasibility of the designed processes.
   
-<img width="940" height="425" alt="image" src="https://github.com/user-attachments/assets/a297ed70-1eca-47dd-b24f-3a72112e25bb" />
-
+<p align="center">
+  <img width="940" height="425" alt="image" src="https://github.com/user-attachments/assets/a297ed70-1eca-47dd-b24f-3a72112e25bb" />
+</p>
 
 ## Limitations and Future Work
 While the core business flows and system design are complete, several limitations remain:
