@@ -31,12 +31,14 @@ I worked as a **Business Analyst / System Designer** in this project.
   - Worked with developers to clarify logic and edge cases.
   - Supported test planning by defining expected outputs and scenarios.
 
----
 
 ## 3. Workflow / Diagrams
 ### 3.1 Workflow Diagram 
 #### Customer Order Workflow (O2C)
+
+<p align="center">
 <img width="620" height="951" alt="image" src="https://github.com/user-attachments/assets/3436c9a0-4743-4618-b5de-7fd3a42dd4f5" />
+</p>
 
 #### Admin Order Processing Workflow
 <img width="499" height="804" alt="image" src="https://github.com/user-attachments/assets/6505d458-187b-4b9d-b541-16cd590d2492" />
