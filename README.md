@@ -4,7 +4,7 @@
 
 ## 1. Project Overview
 An electronics e-commerce website (similar to ShopDunk) designed as a full MVC-based system.  
-The project focuses on **end-to-end business process analysis, functional requirements, and system design**, then implemented by the development team using PHP + MySQL.
+The project focuses on **end-to-end business process analysis, functional requirements, and system design**, then implemented by the development team using PHP, CSS, Javascript, HTML, MySQL.
 
 **Business Scope**
 - User side: account management, product browsing/search/filter, cart & checkout, promotions, feedback, order history.
