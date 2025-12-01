@@ -11,25 +11,33 @@ The project focuses on **end-to-end business process analysis, functional requir
 - Admin side: product/order/promotion management, revenue analytics.
 
 ## 2. My Role & Contributions (Business Analysis / System Design)
-I worked as a **Business Analyst / System Designer** in this project.
 
-**Key contributions**
+**Role:** Business Analyst / System Designer  
+
+### Key Contributions
 - **Business Process Analysis**
-  - Collected and analyzed user/admin needs.
-  - Modeled **AS-IS / TO-BE workflows** for key flows:  
-    Order-to-Cash (customer ordering) and Admin order processing.
+  - Collected and analyzed user/admin requirements.
+  - Modeled **AS-IS / TO-BE workflows** for core flows:
+    - Customer ordering (Order-to-Cash)
+    - Admin order processing
+
 - **Requirement Engineering**
   - Defined and documented **functional requirements** for:
-    - Authentication & profile management
+    - Sign-in / Sign-out
+    - Profile management
     - Feedback & review management
-    - User promotions/discount flow
-  - Ensured requirement traceability from business goals to features.
+    - Promotions / discounts flow
+  - Ensured requirements aligned with business goals and user experience.
+
 - **System & Data Design**
-  - Designed **ERD** and database schema (master data & transaction data).
-  - Produced **use cases, activity diagrams, and business flow diagrams** to guide implementation.
-- **Collaboration & Validation**
-  - Worked with developers to clarify logic and edge cases.
-  - Supported test planning by defining expected outputs and scenarios.
+  - Designed **ERD** and database schema (master data + transaction data).
+  - Produced **Use Cases, Activity Diagrams, Business Flow Diagrams**
+    to clearly model system behavior and guide implementation.
+
+- **Development Support**
+  - Implemented core features using **HTML, PHP, CSS, JavaScript**
+    (authentication + profile updates) to bridge design and real functions.
+
 
 
 ## 3. Workflow / Diagrams
