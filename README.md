@@ -17,7 +17,7 @@ The project focuses on **end-to-end business process analysis, functional requir
 ### Key Contributions
 - **Business Process Analysis**
   - Collected and analyzed user/admin requirements.
-  - Modeled **AS-IS / TO-BE workflows** for core flows:
+  - Modeled core flows:
     - Customer ordering (Order-to-Cash)
     - Admin order processing
 
@@ -116,7 +116,7 @@ DoAnCuoiKiLapTrinhWeb/
 └── README.md
 ```
 ## Results
-This project delivered an end-to-end **business analysis and system design** for an online electronics retail website. Starting from stakeholder needs, we modeled core **AS-IS / TO-BE processes** and translated them into functional requirements and a complete system blueprint. Key outputs include:
+This project delivered an end-to-end **business analysis and system design** for an online electronics retail website. Starting from stakeholder needs, we modeled core processes and translated them into functional requirements and a complete system blueprint. Key outputs include:
 
 - Clearly defined business scope for both **Customer (O2C)** and **Admin operations**.
 - Fully documented **functional requirements** covering account management, product browsing, cart/checkout, promotions, feedback, and order tracking.
