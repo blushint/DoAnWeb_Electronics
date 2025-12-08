@@ -150,8 +150,6 @@ We would like to express our sincere gratitude to **Mr. Dang Ngoc Hoang Thanh** 
 ## License
 This repository is for educational and non-commercial purposes only.  
 The authors do not publish, distribute, or license any dataset.  
-Any crawling or external data usage must comply with the source website’s terms and applicable laws.
-
 ## Authors
 Developed by **Group 06**.
 
